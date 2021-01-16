@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=Nudge
+X-Python-2-Compatible=false
+X-Krita-Manual=nudge_extension_manual.html
+Name=Nudge
+Comment=Pixel positioning plugin.

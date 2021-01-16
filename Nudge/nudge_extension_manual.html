@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nudge Extension Manual - Krita 4</title>
+    </head>
+    <body>
+        <h1>Nudge Extension - Krita 4</h1>
+        <p>Extension that allows you to nudge layers around by 1 pixel at a time</p>
+        <h2>How to Install</h2>
+        <ol>
+            <li>Open Krita, go to Settings-&gt;Manage Resources...-&gt;Open Resource Folder</li>
+            <li>Open the pykrita folder inside the folder that pops up</li>
+            <li>Download this repository and save the files and folders exactly as they are to the pykrita folder</li>
+            <li>Copy the contents of the 'actions' directory into the actions folder that's next to the pykrita folder</li>
+            <li>Close and reopen Krita</li>
+            <li>Go to Settings-&gt;Configure Krita-&gt;Python Plugin Manager</li>
+            <li>Scroll down and enable Nudge, click OK to save</li>
+            <li>Close and reopen Krita again</li>
+        </ol>
+        <p>You may need to reconfigure your keyboard shortcuts since up/down/left/right are bound by default to moving the path tool</p>
+        <h2>How to Use</h2>
+        <p>Use the arrow keys to nudge the current layer around 1 pixel at a time.</p>
+        <h3>Other Notes</h3>
+        <p>I originally wanted this plugin to nudge selection areas/selected content around too, but either the documentation for selections is wrong in many places, or there are many bugs/unintended behaviors with scripting selection.</p>
+    </body>
+</html>
